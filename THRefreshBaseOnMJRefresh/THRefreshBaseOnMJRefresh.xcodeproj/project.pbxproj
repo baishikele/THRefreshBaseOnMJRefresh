@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0929B5E7BF78A05E38F88569 /* libPods-THRefreshBaseOnMJRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED868FD9690476492FA208D /* libPods-THRefreshBaseOnMJRefresh.a */; };
+		88959C4C216B67D40011E475 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88959C4B216B67D40011E475 /* AppDelegate.m */; };
+		88959C4F216B67D40011E475 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88959C4E216B67D40011E475 /* ViewController.m */; };
+		88959C52216B67D40011E475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88959C50216B67D40011E475 /* Main.storyboard */; };
+		88959C54216B67D50011E475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88959C53216B67D50011E475 /* Assets.xcassets */; };
+		88959C57216B67D50011E475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88959C55216B67D50011E475 /* LaunchScreen.storyboard */; };
+		88959C5A216B67D50011E475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88959C59216B67D50011E475 /* main.m */; };
+		88959C64216B68AB0011E475 /* THRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 88959C60216B68AA0011E475 /* THRefreshFooter.m */; };
+		88959C65216B68AB0011E475 /* THRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 88959C61216B68AB0011E475 /* THRefreshHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		024886AA213077DC683CBA44 /* Pods-THRefreshBaseOnMJRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THRefreshBaseOnMJRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-THRefreshBaseOnMJRefresh/Pods-THRefreshBaseOnMJRefresh.release.xcconfig"; sourceTree = "<group>"; };
+		3ED868FD9690476492FA208D /* libPods-THRefreshBaseOnMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THRefreshBaseOnMJRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88959C47216B67D40011E475 /* THRefreshBaseOnMJRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THRefreshBaseOnMJRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88959C4A216B67D40011E475 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88959C4B216B67D40011E475 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88959C4D216B67D40011E475 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88959C4E216B67D40011E475 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88959C51216B67D40011E475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88959C53216B67D50011E475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88959C56216B67D50011E475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88959C58216B67D50011E475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88959C59216B67D50011E475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88959C60216B68AA0011E475 /* THRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THRefreshFooter.m; sourceTree = "<group>"; };
+		88959C61216B68AB0011E475 /* THRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THRefreshHeader.m; sourceTree = "<group>"; };
+		88959C62216B68AB0011E475 /* THRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THRefreshFooter.h; sourceTree = "<group>"; };
+		88959C63216B68AB0011E475 /* THRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THRefreshHeader.h; sourceTree = "<group>"; };
+		FCC734260D1B732D9E3D0B35 /* Pods-THRefreshBaseOnMJRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THRefreshBaseOnMJRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THRefreshBaseOnMJRefresh/Pods-THRefreshBaseOnMJRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88959C44216B67D40011E475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0929B5E7BF78A05E38F88569 /* libPods-THRefreshBaseOnMJRefresh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DA78A2FC0CEE0ECE6A119F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ED868FD9690476492FA208D /* libPods-THRefreshBaseOnMJRefresh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88959C3E216B67D30011E475 = {
+			isa = PBXGroup;
+			children = (
+				88959C49216B67D40011E475 /* THRefreshBaseOnMJRefresh */,
+				88959C48216B67D40011E475 /* Products */,
+				C46C41879DAA13D3B0E59E19 /* Pods */,
+				7DA78A2FC0CEE0ECE6A119F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88959C48216B67D40011E475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88959C47216B67D40011E475 /* THRefreshBaseOnMJRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88959C49216B67D40011E475 /* THRefreshBaseOnMJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				88959C4A216B67D40011E475 /* AppDelegate.h */,
+				88959C4B216B67D40011E475 /* AppDelegate.m */,
+				88959C4D216B67D40011E475 /* ViewController.h */,
+				88959C4E216B67D40011E475 /* ViewController.m */,
+				88959C50216B67D40011E475 /* Main.storyboard */,
+				88959C62216B68AB0011E475 /* THRefreshFooter.h */,
+				88959C60216B68AA0011E475 /* THRefreshFooter.m */,
+				88959C63216B68AB0011E475 /* THRefreshHeader.h */,
+				88959C61216B68AB0011E475 /* THRefreshHeader.m */,
+				88959C53216B67D50011E475 /* Assets.xcassets */,
+				88959C55216B67D50011E475 /* LaunchScreen.storyboard */,
+				88959C58216B67D50011E475 /* Info.plist */,
+				88959C59216B67D50011E475 /* main.m */,
+			);
+			path = THRefreshBaseOnMJRefresh;
+			sourceTree = "<group>";
+		};
+		C46C41879DAA13D3B0E59E19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCC734260D1B732D9E3D0B35 /* Pods-THRefreshBaseOnMJRefresh.debug.xcconfig */,
+				024886AA213077DC683CBA44 /* Pods-THRefreshBaseOnMJRefresh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88959C46216B67D40011E475 /* THRefreshBaseOnMJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88959C5D216B67D50011E475 /* Build configuration list for PBXNativeTarget "THRefreshBaseOnMJRefresh" */;
+			buildPhases = (
+				5E115D0DF2F90DBA2AA2F646 /* [CP] Check Pods Manifest.lock */,
+				88959C43216B67D40011E475 /* Sources */,
+				88959C44216B67D40011E475 /* Frameworks */,
+				88959C45216B67D40011E475 /* Resources */,
+				C11C72D4177F8E972B9559E1 /* [CP] Embed Pods Frameworks */,
+				201B85CC7A50FF1D6DE9C2B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THRefreshBaseOnMJRefresh;
+			productName = THRefreshBaseOnMJRefresh;
+			productReference = 88959C47216B67D40011E475 /* THRefreshBaseOnMJRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88959C3F216B67D30011E475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = jm;
+				TargetAttributes = {
+					88959C46216B67D40011E475 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 88959C42216B67D30011E475 /* Build configuration list for PBXProject "THRefreshBaseOnMJRefresh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88959C3E216B67D30011E475;
+			productRefGroup = 88959C48216B67D40011E475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88959C46216B67D40011E475 /* THRefreshBaseOnMJRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88959C45216B67D40011E475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88959C57216B67D50011E475 /* LaunchScreen.storyboard in Resources */,
+				88959C54216B67D50011E475 /* Assets.xcassets in Resources */,
+				88959C52216B67D40011E475 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		201B85CC7A50FF1D6DE9C2B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-THRefreshBaseOnMJRefresh/Pods-THRefreshBaseOnMJRefresh-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THRefreshBaseOnMJRefresh/Pods-THRefreshBaseOnMJRefresh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E115D0DF2F90DBA2AA2F646 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THRefreshBaseOnMJRefresh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C11C72D4177F8E972B9559E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THRefreshBaseOnMJRefresh/Pods-THRefreshBaseOnMJRefresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88959C43216B67D40011E475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88959C4F216B67D40011E475 /* ViewController.m in Sources */,
+				88959C5A216B67D50011E475 /* main.m in Sources */,
+				88959C64216B68AB0011E475 /* THRefreshFooter.m in Sources */,
+				88959C65216B68AB0011E475 /* THRefreshHeader.m in Sources */,
+				88959C4C216B67D40011E475 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88959C50216B67D40011E475 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88959C51216B67D40011E475 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88959C55216B67D50011E475 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88959C56216B67D50011E475 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88959C5B216B67D50011E475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88959C5C216B67D50011E475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88959C5E216B67D50011E475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC734260D1B732D9E3D0B35 /* Pods-THRefreshBaseOnMJRefresh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64J5682FAW;
+				INFOPLIST_FILE = THRefreshBaseOnMJRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jumei.THRefreshBaseOnMJRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88959C5F216B67D50011E475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024886AA213077DC683CBA44 /* Pods-THRefreshBaseOnMJRefresh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64J5682FAW;
+				INFOPLIST_FILE = THRefreshBaseOnMJRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jumei.THRefreshBaseOnMJRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88959C42216B67D30011E475 /* Build configuration list for PBXProject "THRefreshBaseOnMJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88959C5B216B67D50011E475 /* Debug */,
+				88959C5C216B67D50011E475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88959C5D216B67D50011E475 /* Build configuration list for PBXNativeTarget "THRefreshBaseOnMJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88959C5E216B67D50011E475 /* Debug */,
+				88959C5F216B67D50011E475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88959C3F216B67D30011E475 /* Project object */;
+}
