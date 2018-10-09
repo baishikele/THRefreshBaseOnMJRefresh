@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="YeE-Lc-L6w" kind="relationship" relationship="rootViewController" id="38t-3q-waZ"/>
+                        <segue destination="A5H-aD-B81" kind="relationship" relationship="rootViewController" id="s07-Ha-Qpp"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zrE-C3-z4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -83,7 +83,36 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ttd-wS-dtC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="324" y="-3.1484257871064472"/>
+            <point key="canvasLocation" x="1260" y="172"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="v5h-sZ-O8d">
+            <objects>
+                <viewController id="A5H-aD-B81" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hvZ-46-H0C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMF-UQ-mTs">
+                                <rect key="frame" x="151.5" y="318.5" width="72" height="30"/>
+                                <state key="normal" title="点击PUSH"/>
+                                <connections>
+                                    <segue destination="YeE-Lc-L6w" kind="push" id="9Mx-xc-T3b"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PMF-UQ-mTs" firstAttribute="centerX" secondItem="hvZ-46-H0C" secondAttribute="centerX" id="Mwq-Iq-BJs"/>
+                            <constraint firstItem="PMF-UQ-mTs" firstAttribute="centerY" secondItem="hvZ-46-H0C" secondAttribute="centerY" id="qmX-ZE-Oep"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EuX-LO-PUf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HY3-kx-V2b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zQZ-bg-qI6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="393" y="164"/>
         </scene>
     </scenes>
 </document>
